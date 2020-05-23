@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DietPlanActivity">
+
+    <include
+        layout="@layout/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        layout="@layout/food_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startProgram"
+        android:layout_width="431dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#08a0e9"
+        android:text="Start Program"
+        android:textColor="#e8f5fd" />
+
+</LinearLayout>
